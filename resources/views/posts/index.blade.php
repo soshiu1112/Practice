@@ -14,6 +14,10 @@
                 <p class="body">{{$post->body}}</p>
             @endforeach
             </div>
+            
+        </div>
+        <div class='paginate'>
+            {{$posts->links()}}
         </div>
     </body>
 </html>
